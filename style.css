@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    position: fixed;
+    background-color:#ffffff;
+    z-index: 1;
+}
+.header .logo{
+    padding: 25px;
+    margin: 5px 0px 0px 35px
+}
+.header .location{
+    margin: 12px 10px 6px 9px;
+    padding: 37px 348px 26px 22px;
+}
+.header .navbar{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    width: 850px;
+    height: 80px;
+    align-items: center;
+    justify-content: right;
+    margin: 17px 99px 0px 88px;
+}
+.header ul{
+    margin-right: 17px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    position: absolute;
+    gap: 80px;
+    overflow: hidden;
+}
+.header .logo a{
+    color: #282c3f;
+    text-decoration: none;
+}
+.header .location a{
+    color: #282c3f;
+    text-decoration: none;
+}
+.header .location a:hover{
+    color: #fc8019;
+}
+.header ul a{
+    text-decoration: none;
+    color: #282c3f;
+}
+.header ul a:hover{
+    color: #fc8019;
+}
+.navbar .img2{
+    margin-top: 4px;
+    width: 15px;
+    height: 15px;
+    margin-right: 13px;
+}
+.main{
+    display: flex;
+    width: 98%;
+    height: 1500px;
+    position: absolute;
+    top: 110px;
+    margin-left: 15px;
+    color: #282c3f;
+    background-color: #fffffe;
+}
+.main .right{
+    left: 1350px;
+}
+.main .left{
+    left: 1390px;
+}
+.dishpng{
+    display: flex;
+    width: 1426px;
+    margin-left: 45px;
+    overflow: hidden;
+}
+.dishpng img{
+    display: block;
+    width: 144px;
+    height: 180px;
+    gap: 10px;
+}
+.line{
+    position: absolute;
+    top: 268px;
+    left: 34px;
+    width: 97%;
+    height: 0px;
+    border: 1px solid #e2e2e7;
+}
+.submain{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 370px;
+    top: 283px;
+    color: #282c3f;
+}
+.Sline{
+    position: absolute;
+    top: 672px;
+    left: 34px;
+    width: 97%;
+    height: 0px;
+    border: 1px solid #e2e2e7;
+}
+.cardcontainer{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 284px;
+    position: absolute;
+    top: 80px;
+    left: 45px;
+    gap: 25px;
+    overflow: hidden;
+}
+.card{
+    color: #282c3f; 
+}
+.card:hover{
+    transform: scale(0.95, 0.95);
+    transform-origin: center center;
+    transition: all 0.1s ease-in 0s;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    position: absolute;
+    top: 1630px;
+    left: 15px;
+    width: 98%;
+    height: 200px;
+}
