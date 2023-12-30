@@ -50,6 +50,9 @@
 .scrollbar{
     overflow-x: scroll;
 }
+::-webkit-scrollbar{
+    height: 5px;
+}
 .cr{
     margin-top: 90px;
     display: flex;
